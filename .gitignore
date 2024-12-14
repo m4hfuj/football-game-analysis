@@ -1,0 +1,5 @@
+input_videos/*
+output_videos/*
+stubs/*
+
+*/__pycache__
