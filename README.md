@@ -1,5 +1,5 @@
 
-# ![Demo GIF](assets/football.png) Football Game Analysis Pipeline
+# ⚽ Football Game Analysis Pipeline
 
 ![Python](https://img.shields.io/badge/-Python-3776AB?logo=python&logoColor=white)
 ![YOLO](https://img.shields.io/badge/-YOLOv8-FF9900?logo=yolo&logoColor=white)
