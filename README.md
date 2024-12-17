@@ -1,19 +1,14 @@
 
-# 🏈 Football Game Analysis Pipeline
+# ![Demo GIF](assets/football.png) Football Game Analysis Pipeline
 
-## 🛠️ Tech Stack
-
-| Technology                                                                                          | Purpose                                      |
-|------------------------------------------------------------------------------------------------------|----------------------------------------------|
-| ![Python](https://img.shields.io/badge/-Python-3776AB?logo=python&logoColor=white)                  | Core programming language                   |
-| ![YOLO](https://img.shields.io/badge/-YOLOv8-FF9900?logo=yolo&logoColor=white)                      | Object detection model                      |
-| ![ByteTrack](https://img.shields.io/badge/-ByteTrack-3776AB?logo=python&logoColor=white)            | Object tracking across frames               |
-| ![OpenCV](https://img.shields.io/badge/-OpenCV-5C3EE8?logo=opencv&logoColor=white)                  | Video frame processing                      |
-| ![Pandas](https://img.shields.io/badge/-Pandas-150458?logo=pandas&logoColor=white)                  | Data interpolation                          |
-| ![NumPy](https://img.shields.io/badge/-NumPy-013243?logo=numpy&logoColor=white)                     | Numerical computations                      |
-| ![Matplotlib](https://img.shields.io/badge/-Matplotlib-11557C?logo=python&logoColor=white)          | Visualization of analytical data            |
-| ![Scikit-Learn](https://img.shields.io/badge/-Scikit--Learn-F7931E?logo=scikit-learn&logoColor=white)| KMeans clustering for team assignments      |
-
+![Python](https://img.shields.io/badge/-Python-3776AB?logo=python&logoColor=white)
+![YOLO](https://img.shields.io/badge/-YOLOv8-FF9900?logo=yolo&logoColor=white)
+![ByteTrack](https://img.shields.io/badge/-ByteTrack-3776AB?logo=python&logoColor=white)
+![OpenCV](https://img.shields.io/badge/-OpenCV-5C3EE8?logo=opencv&logoColor=white)
+![Pandas](https://img.shields.io/badge/-Pandas-150458?logo=pandas&logoColor=white)
+![NumPy](https://img.shields.io/badge/-NumPy-013243?logo=numpy&logoColor=white)
+![Matplotlib](https://img.shields.io/badge/-Matplotlib-11557C?logo=python&logoColor=white)
+![Scikit-Learn](https://img.shields.io/badge/-Scikit--Learn-F7931E?logo=scikit-learn&logoColor=white)
 ---
 
 This repository contains a robust pipeline for analyzing football game videos, focusing on object detection, tracking, team assignments, and ball control analysis. The program leverages advanced computer vision techniques to process game footage, delivering detailed insights through annotations and statistics.
