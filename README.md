@@ -1,4 +1,3 @@
-
 # ⚽ Football Game Analysis Pipeline
 
 ![Python](https://img.shields.io/badge/-Python-3776AB?logo=python&logoColor=white)
@@ -49,17 +48,16 @@ This repository contains a robust pipeline for analyzing football game videos, f
 ```plaintext
 football-game-analysis/
 ├── data/
-│   ├── input_videos/        # Raw football game videos
-│   ├── output_videos/       # Processed videos with annotations
-├── src/
-│   ├── tracker.py           # Object tracking with YOLO and ByteTrack
-│   ├── team_assigner.py     # KMeans clustering for team assignments
-│   ├── ball_control.py      # Player-ball assignment and control tracking
-│   ├── visualize.py         # Frame annotation scripts
-│   ├── main.py              # Main pipeline script
-├── tests/
-│   ├── test_tracker.py      # Unit tests for tracker module
-│   ├── test_team_assigner.py# Unit tests for team assignment
-├── requirements.txt         # Python dependencies
-├── README.md                # Documentation
-└── LICENSE                  # License file
+│   ├── input_videos/              # Raw football game videos
+│   ├── output_videos/             # Processed videos with annotations
+├── models/
+|   ├── best.pt                    # YOLO pretrained model
+├── player_ball_assigber/
+|   ├── player_ball_assigber.py    # Player-ball assignment and control tracking
+├── team_assigner.py         
+|   ├── team_assigner.py           # KMeans clustering for team assignments
+├── tracker.py               
+|   ├── tracker.py                 # Object tracking with YOLO and ByteTrack
+├── main.py                        # Main pipeline script
+
+
