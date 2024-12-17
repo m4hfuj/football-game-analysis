@@ -40,7 +40,6 @@ This repository contains a robust pipeline for analyzing football game videos, f
 - Outputs a fully annotated video.
 
 
----
 ## 📂 Project Structure
 
 ```plaintext
